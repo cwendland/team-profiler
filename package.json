@@ -1,0 +1,27 @@
+{
+  "name": "team-profiler",
+  "version": "1.0.0",
+  "description": "Generates a profile for a project team.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwendland/team-profiler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwendland/team-profiler/issues"
+  },
+  "homepage": "https://github.com/cwendland/team-profiler#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

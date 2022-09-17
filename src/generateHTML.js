@@ -1,3 +1,6 @@
+const Manager = require('../lib/Manager');
+const Engineer = require('../lib/Engineer');
+
 
 function generateCard(employees) {
     let resultCards = '';
@@ -56,3 +59,5 @@ function generateHTML(employeeArr) {
 </body>
 </html>`;
 }
+
+module.exports = generateHTML;
