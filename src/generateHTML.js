@@ -1,5 +1,6 @@
 const Manager = require('../lib/Manager');
 const Engineer = require('../lib/Engineer');
+const Intern = require('../lib/Intern');
 
 
 function generateCard(employees) {
@@ -12,7 +13,7 @@ function generateCard(employees) {
                 <div class="container">
                     <p class="id">ID: ${employee.id}</p>
                     <p class="email">Email: <a href="${employee.email}">${employee.email}</a></p>
-                    <p class="office-num">Office Num: ${employee.officenumber}</p>
+                    <p class="office-num">Office Num: ${employee.getOfficeNumber()}</p>
                 </div>
             </div>`;
         }
@@ -23,7 +24,7 @@ function generateCard(employees) {
                 <div class="container">
                     <p class="id">ID: ${employee.id}</p>
                     <p class="email">Email: <a href="${employee.email}">${employee.email}</a></p>
-                    <p class="github"><a href="https://github.com/${employee.github}">${employee.github}</p>
+                    <p class="github"><a href="https://github.com/${employee.getGithub()}">${employee.getGithub()}</p>
                 </div>
             </div>`;
         } else {
@@ -33,7 +34,7 @@ function generateCard(employees) {
                 <div class="container">
                     <p class="id">ID: ${employee.id}</p>
                     <p class="email">Email: <a href="${employee.email}">${employee.email}</a></p>
-                    <p class="school">School: ${employee.school}</p>
+                    <p class="school">School: ${employee.getSchool()}</p>
                 </div>
             </div>`;
         }
