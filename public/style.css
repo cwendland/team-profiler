@@ -1,0 +1,56 @@
+* {
+    font-family: 'Arial Narrow', Impact, sans-serif;
+    margin: 0;
+    font-weight: 100;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: tomato;
+    background: dodgerblue;
+    border-bottom: 1px solid;
+    margin-bottom: 100px;
+}
+
+.card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline-block;
+    margin: 0 15px;
+    background: dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    background: white;
+    border-radius: 10px;
+    background-color: antiquewhite;
+  }
+
+  .name, .role {
+    padding: 5px 0;
+  }
+
